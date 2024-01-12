@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login View</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/google-icon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container container-wrapper">
+      <div class="left"></div>
+      <div class="right">
+        <div class="right-content-wrapper">
+          <p>Welcome back</p>
+          <h1 class="right-title">Login to your account</h1>
+          <form
+            class="global-form"
+            action="https://echo.htmlacademy.ru"
+            method="post"
+          >
+            <label class="global-form-label">
+              <span class="global-form-text">E-mail</span>
+              <input
+                class="global-form-input"
+                type="email"
+                placeholder="@Sardorxon_master"
+                name="E-mail"
+                required
+              />
+            </label>
+            <label class="global-form-label">
+              <span class="global-form-text">Password</span>
+              <input
+                class="global-form-input"
+                type="email"
+                placeholder="******"
+                name="Password"
+                required
+              />
+            </label>
+            <div class="form-action">
+              <label class="form-action-label">
+                <input class="form-action-input" type="radio" />
+                <span class="form-action-text">Remember me</span>
+              </label>
+              <a class="form-action-link" href="#">Forgot password</a>
+            </div>
+            <div class="form-buttons">
+              <a class="form-buttons-btn login-btn" href="">Login now</a>
+              <a class="form-buttons-btn sign-in-btn" href="">
+                <img
+                  class="form-buttons-btn-image"
+                  src="./images/google-icon.png"
+                  alt="google-icon"
+                  width="20"
+                  height="20"
+                />
+                <span class="form-buttons-btn-text"
+                  >Or sign-in with google</span
+                >
+              </a>
+            </div>
+          </form>
+          <div class="right-bottom">
+            <p class="right-bottom-text">Dont have an account?</p>
+            <a class="right-bottom-link" href="">Join free today</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
